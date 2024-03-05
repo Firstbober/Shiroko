@@ -19,8 +19,17 @@ class Backend(TypedDict):
     together_ai: GenericAPI
 
 
+class Telegram(GenericAPI):
+    username: str
+
+
+class Frontend(TypedDict):
+    telegram: Telegram
+
+
 class Config(TypedDict):
     backend: Backend
+    frontend: Frontend
 
 
 # Public API

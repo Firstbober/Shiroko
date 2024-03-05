@@ -1,0 +1,8 @@
+backend:
+  together_ai:
+    api_key:
+
+frontend:
+  telegram:
+    api_key:
+    username:
